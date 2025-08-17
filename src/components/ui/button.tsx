@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Educational platform variants
+        student: "bg-student text-white hover:bg-student/90 shadow-primary",
+        tutor: "bg-tutor text-white hover:bg-tutor/90 shadow-primary",
+        admin: "bg-admin text-white hover:bg-admin/90 shadow-primary",
       },
       size: {
         default: "h-10 px-4 py-2",
